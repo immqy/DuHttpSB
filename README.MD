@@ -27,3 +27,10 @@ approval_messages
        在本地删除一个分支： git branch -d <本地分支>
       在github远程端删除一个分支： git push origin :<远程端分支>
 唯一不同的就是冒号代表了删除
+
+
+_______________________
+对于这个问题，最好的解决方法就是按如下步骤：
+1.到根目录下：git add .  ；("."是必须要的)
+2.git commit -m "some word"
+3.git push -u origin master 
